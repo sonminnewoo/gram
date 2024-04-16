@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --font-base : 'Poppins' , sans-serif;
+    --robin-blue-color: #10c9c3;
+    --black-color: #141414;
+    --grey-color: #8e8e8e;
+    --white-color: #fff;
+    --transision: all 300ms ease-in-out;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+/* 각 태그 별 스타일 설정 */
+html{
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.8rem;
+    line-height: 1.6;
+    font-family: var(--font-base);
+    color: var(--black-color);
+}
+
+a{
+    color: unset;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+img{
+    width: 100%;
+    display: block;
+
+}
+button{
+    cursor: pointer;
+    outline: 0;
+    border: none;
+    background-color: transparent;
+    font-family: inherit;
+    font-size: 1.8rem;
+}
+input, textarea{
+    outline: 0;
+    border: none;
+    resize: none;
+}
