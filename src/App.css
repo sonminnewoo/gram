@@ -56,12 +56,12 @@
 }
 /* fonts */
 .fw__2{font-weight: 200;}
-.fw__2{font-weight: 300;}
-.fw__2{font-weight: 400;}
-.fw__2{font-weight: 500;}
-.fw__2{font-weight: 600;}
-.fw__2{font-weight: 700;}
-.fw__2{font-weight: 800;}
+.fw__3{font-weight: 300;}
+.fw__4{font-weight: 400;}
+.fw__5{font-weight: 500;}
+.fw__6{font-weight: 600;}
+.fw__7{font-weight: 700;}
+.fw__8{font-weight: 800;}
 
 /* bgs and colors */
 .bg__blue{
@@ -71,7 +71,7 @@
     background-color: var(--black-color);
 }
 .bg__light{
-    background-color: var(--white-color--black-color);
+    background-color: var(--white-color);
 }.bg__whitesmoke{
     background-color: var(--whitesmoke-color);
 }.bg__grey{

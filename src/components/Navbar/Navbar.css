@@ -1,0 +1,21 @@
+.navbar{
+    padding: 3.8rem 0;
+}
+.navbar__brand img{
+    width: 150px;
+}
+.brand__and__toggler{
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.navbar__collapse{
+    /* display: none; */
+}
+.navbar__collapse .nav__link{
+    letter-spacing: 1px;
+    transition: var(--transition);
+}
+.navbar__collapse .nav__link:hover, .nav__link{
+    color: var(--robin-blue-color);
+}

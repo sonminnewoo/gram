@@ -1,0 +1,7 @@
+.header{
+    min-height: 100vh;
+}
+.header__content{
+    min-height: calc(100vh - 106px);
+    flex-direction: column;
+}
