@@ -10,7 +10,7 @@
     width: 100%;
 }
 .navbar__collapse{
-    /* display: none; */
+    display: none;
 }
 .navbar__collapse .nav__link{
     letter-spacing: 1px;
