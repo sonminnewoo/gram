@@ -12,10 +12,10 @@ const Navbar = () => {
                 <div className="brand__and__toggler flex">
                     <a href="index.html" alt=""
                     className="navbar__brand">
-                        <img src={images.logo} alt = "sitelogo" />
+                        <img src={images.logo} alt = "sitelogo" style={{ width: '110px', height: '100px' }} />
                     </a>
                     <button type="button"
-                    className="navbar__open--btntext__light" onClick={() => setToggleMenu(true)}>
+                    className="navbar__open--btn text__light" onClick={() => setToggleMenu(true)}>
                         <FaBars size={26}/>
                     </button>
                 </div>
@@ -63,36 +63,37 @@ const Navbar = () => {
                                 <a href="#home"
                                 className="nav__link
                                 text__upper fw__6
-                                nav__active">Home</a>
+                                nav__active text__light
+                                ">Home</a>
                             </li>
                             <li className="nav__item">
                                 <a href="#about"
                                 className="nav__link
-                                text__upper fw__6
+                                text__upper fw__6 text__light
                                 ">ABOUT</a>
                             </li>
                             <li className="nav__item">
                                 <a href="#signUp"
                                 className="nav__link
-                                text__upper fw__6
+                                text__upper fw__6 text__light
                                 ">SIGNUP</a>
                             </li>
                             <li className="nav__item">
                                 <a href="#signIn"
                                 className="nav__link
-                                text__upper fw__6
+                                text__upper fw__6 text__light
                                 ">SIGNIN</a>
                             </li>
                             <li className="nav__item">
                                 <a href="#myPage"
                                 className="nav__link
-                                text__upper fw__6
+                                text__upper fw__6 text__light
                                 ">MYPAGE</a>
                             </li>
                             <li className="nav__item">
                                 <a href="#place"
                                 className="nav__link
-                                text__upper fw__6
+                                text__upper fw__6 text__light
                                 ">PLACE</a>
                             </li>
                         </ul>
