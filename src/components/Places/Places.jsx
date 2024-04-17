@@ -38,9 +38,7 @@ const Work = () => {
                     data.works.map((work, index) => {
                         return (
                             <div className="work__content--item" key = {index} onClick = {() => setImageOnModal(work.img)}>
-                                <img src = {work.img} alt = "" className="img" />
                                 <div className="icon">
-                                    {/* <img src = {images.icon_eye} alt = "" /> */}
                                 </div>
                             </div>
                         )
