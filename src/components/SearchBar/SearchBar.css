@@ -1,0 +1,35 @@
+.search-bar {
+    display: flex; /* Aligns children (dropdown, input, button) in a row */
+    align-items: center; /* Centers children vertically */
+    padding: 10px;
+    background-color: #f8f8f8; /* Light grey background */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.search-dropdown {
+    margin-right: 10px; /* Spacing between dropdown and input */
+    padding: 5px 10px; /* Padding inside the dropdown */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 5px; /* Rounded corners for the dropdown */
+}
+
+.search-input {
+    flex-grow: 1; /* Takes up remaining space */
+    margin-right: 10px; /* Spacing between input and button */
+    padding: 5px 10px; /* Padding inside the input */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 5px; /* Rounded corners for the input */
+}
+
+.search-button {
+    padding: 5px 15px; /* Padding inside the button */
+    background-color: #007BFF; /* Blue background for the button */
+    color: white; /* White text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.search-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

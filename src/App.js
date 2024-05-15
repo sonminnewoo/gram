@@ -1,31 +1,20 @@
-import Sidebar from "./components/Sidebar";
-import Feed from "./components/Feed";
-// import Rightbar from "./components/Rightbar";
-import { Box, createTheme, Stack, ThemeProvider } from "@mui/material";
-import Navbar from "./components/Navbar";
-import Add from "./components/Add";
-import { useState } from "react";
+import './App.css';
+import React from 'react';
+import { BrowserRouter as Router } from "react-router-dom";
+import Header from "./components/Header/Header";
+import SearchBar from './components/SearchBar/SearchBar';
+import Places from "./components/Places/Places";
+
 
 function App() {
-  const [mode, setMode] = useState("light");
-
-  const darkTheme = createTheme({
-    palette: {
-      mode: mode,
-    },
-  });
   return (
-    <ThemeProvider theme={darkTheme}>
-      <Box bgcolor={"background.default"} color={"text.primary"}>
-        <Navbar />
-        <Stack direction="row" spacing={2} justifyContent="space-between">
-        <Sidebar setMode={setMode} mode={mode}/>
-          <Feed />
-          {/* <Rightbar /> */}
-        </Stack>
-        <Add />
-      </Box>
-    </ThemeProvider>
+    <Router>
+      <div className="holder">
+        <Header />
+        <SearchBar />
+        <Places />
+      </div>
+    </Router>
   );
 }
 
